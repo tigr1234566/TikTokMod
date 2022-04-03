@@ -1606,11 +1606,7 @@
 
     iput v0, p0, Lcom/ss/android/ugc/aweme/feed/model/Aweme;->adDescMaxLines:I
 
-    const/4 v2, 0x0
-
     iput-boolean v1, p0, Lcom/ss/android/ugc/aweme/feed/model/Aweme;->adDescHandle:Z
-
-    const/4 v2, 0x0
 
     iput-boolean v2, p0, Lcom/ss/android/ugc/aweme/feed/model/Aweme;->withPromotionalMusic:Z
 
@@ -2388,19 +2384,13 @@
 
     iget v0, p0, Lcom/ss/android/ugc/aweme/feed/model/Aweme;->reactSetting:I
 
-    const/4 v0, 0x0
-
     iput v0, v1, Lcom/ss/android/ugc/aweme/feed/model/Aweme;->reactSetting:I
 
     iget v0, p0, Lcom/ss/android/ugc/aweme/feed/model/Aweme;->duetSetting:I
 
-    const/4 v0, 0x0
-
     iput v0, v1, Lcom/ss/android/ugc/aweme/feed/model/Aweme;->duetSetting:I
 
     iget v0, p0, Lcom/ss/android/ugc/aweme/feed/model/Aweme;->stitchSetting:I
-
-    const/4 v0, 0x0
 
     iput v0, v1, Lcom/ss/android/ugc/aweme/feed/model/Aweme;->stitchSetting:I
 
@@ -2473,8 +2463,6 @@
     iput-object v0, v1, Lcom/ss/android/ugc/aweme/feed/model/Aweme;->preForwardId:Ljava/lang/String;
 
     iget-boolean v0, p0, Lcom/ss/android/ugc/aweme/feed/model/Aweme;->preventDownload:Z
-
-    const/4 v0, 0x0
 
     iput-boolean v0, v1, Lcom/ss/android/ugc/aweme/feed/model/Aweme;->preventDownload:Z
 
@@ -3449,6 +3437,8 @@
     .locals 1
 
     iget-object v0, p0, Lcom/ss/android/ugc/aweme/feed/model/Aweme;->awemeRawAd:Lcom/ss/android/ugc/aweme/feed/model/AwemeRawAd;
+    
+    const/4 v0, 0x0
 
     return-object v0
 .end method
@@ -3941,8 +3931,6 @@
     .locals 1
 
     iget v0, p0, Lcom/ss/android/ugc/aweme/feed/model/Aweme;->duetSetting:I
-
-    const/4 v0, 0x0
 
     return v0
 .end method
@@ -4718,8 +4706,6 @@
 
 .method public getHasAd()I
     .locals 1
-
-    iget v0, p0, Lcom/ss/android/ugc/aweme/feed/model/Aweme;->hasAd:I
 
     const/4 v0, 0x0
 
@@ -6154,8 +6140,6 @@
 
     iget v0, p0, Lcom/ss/android/ugc/aweme/feed/model/Aweme;->reactSetting:I
 
-    const/4 v0, 0x0
-
     return v0
 .end method
 
@@ -6544,8 +6528,6 @@
     .locals 1
 
     iget v0, p0, Lcom/ss/android/ugc/aweme/feed/model/Aweme;->stitchSetting:I
-
-    const/4 v0, 0x0
 
     return v0
 .end method
@@ -7200,7 +7182,7 @@
 .end method
 
 .method public isCanPlay()Z
-    .locals 3
+    .locals 1
 
     iget-boolean v0, p0, Lcom/ss/android/ugc/aweme/feed/model/Aweme;->canPlay:Z
 
@@ -7780,8 +7762,6 @@
 
     iget-boolean v0, p0, Lcom/ss/android/ugc/aweme/feed/model/Aweme;->preventDownload:Z
 
-    const/4 v0, 0x0
-
     return v0
 .end method
 
@@ -8001,7 +7981,7 @@
 
     if-eqz v0, :cond_0
 
-    const/4 v0, 0x1
+    const/4 v0, 0x0
 
     return v0
 
@@ -8174,7 +8154,7 @@
 
     if-eqz v0, :cond_0
 
-    const/4 v0, 0x1
+    const/4 v0, 0x0
 
     return v0
 
@@ -8194,8 +8174,6 @@
 
 .method public isWithPromotionalMusic()Z
     .locals 1
-
-    iget-boolean v0, p0, Lcom/ss/android/ugc/aweme/feed/model/Aweme;->withPromotionalMusic:Z
 
     const/4 v0, 0x0
 
@@ -8248,8 +8226,6 @@
 
 .method public setAd(Z)V
     .locals 0
-
-    const/4 p1, 0x0
 
     iput-boolean p1, p0, Lcom/ss/android/ugc/aweme/feed/model/Aweme;->isAd:Z
 
@@ -8402,8 +8378,6 @@
 
 .method public setAwemeRawAd(Lcom/ss/android/ugc/aweme/feed/model/AwemeRawAd;)V
     .locals 0
-
-    const/4 p1, 0x0
 
     iput-object p1, p0, Lcom/ss/android/ugc/aweme/feed/model/Aweme;->awemeRawAd:Lcom/ss/android/ugc/aweme/feed/model/AwemeRawAd;
 
@@ -8709,8 +8683,6 @@
 .method public setDuetSetting(I)V
     .locals 0
 
-    const/4 p1, 0x0
-
     iput p1, p0, Lcom/ss/android/ugc/aweme/feed/model/Aweme;->duetSetting:I
 
     return-void
@@ -9012,8 +8984,6 @@
 .method public setHasAd(I)V
     .locals 0
 
-    const/4 p1, 0x0
-
     iput p1, p0, Lcom/ss/android/ugc/aweme/feed/model/Aweme;->hasAd:I
 
     return-void
@@ -9293,8 +9263,6 @@
 
 .method public setLawCriticalCountry(Z)V
     .locals 0
-
-    const/4 p1, 0x0
 
     iput-boolean p1, p0, Lcom/ss/android/ugc/aweme/feed/model/Aweme;->lawCriticalCountry:Z
 
@@ -9667,8 +9635,6 @@
 .method public setPreventDownload(Z)V
     .locals 0
 
-    const/4 p1, 0x0
-
     iput-boolean p1, p0, Lcom/ss/android/ugc/aweme/feed/model/Aweme;->preventDownload:Z
 
     return-void
@@ -9787,8 +9753,6 @@
 
 .method public setReactSetting(I)V
     .locals 0
-
-    const/4 p1, 0x0
 
     iput p1, p0, Lcom/ss/android/ugc/aweme/feed/model/Aweme;->reactSetting:I
 
@@ -10027,8 +9991,6 @@
 
 .method public setStitchSetting(I)V
     .locals 0
-
-    const/4 p1, 0x0
 
     iput p1, p0, Lcom/ss/android/ugc/aweme/feed/model/Aweme;->stitchSetting:I
 
@@ -10368,8 +10330,6 @@
 
 .method public setWithPromotionalMusic(Z)V
     .locals 0
-
-    const/4 p1, 0x0
 
     iput-boolean p1, p0, Lcom/ss/android/ugc/aweme/feed/model/Aweme;->withPromotionalMusic:Z
 
@@ -11167,8 +11127,6 @@
 
     iput-boolean v0, p0, Lcom/ss/android/ugc/aweme/feed/model/Aweme;->isAd:Z
 
-    const/4 v0, 0x0
-
     iget v0, p1, Lcom/ss/android/ugc/aweme/feed/model/Aweme;->awemeType:I
 
     iput v0, p0, Lcom/ss/android/ugc/aweme/feed/model/Aweme;->awemeType:I
@@ -11250,8 +11208,6 @@
     iput-wide v0, p0, Lcom/ss/android/ugc/aweme/feed/model/Aweme;->feedCount:J
 
     iget-boolean v0, p1, Lcom/ss/android/ugc/aweme/feed/model/Aweme;->preventDownload:Z
-
-    const/4 v0, 0x0
 
     iput-boolean v0, p0, Lcom/ss/android/ugc/aweme/feed/model/Aweme;->preventDownload:Z
 
@@ -11394,19 +11350,13 @@
 
     iget v0, p1, Lcom/ss/android/ugc/aweme/feed/model/Aweme;->duetSetting:I
 
-    const/4 v0, 0x0
-
     iput v0, p0, Lcom/ss/android/ugc/aweme/feed/model/Aweme;->duetSetting:I
 
     iget v0, p1, Lcom/ss/android/ugc/aweme/feed/model/Aweme;->reactSetting:I
 
-    const/4 v0, 0x0
-
     iput v0, p0, Lcom/ss/android/ugc/aweme/feed/model/Aweme;->reactSetting:I
 
     iget v0, p1, Lcom/ss/android/ugc/aweme/feed/model/Aweme;->stitchSetting:I
-
-    const/4 v0, 0x0
 
     iput v0, p0, Lcom/ss/android/ugc/aweme/feed/model/Aweme;->stitchSetting:I
 

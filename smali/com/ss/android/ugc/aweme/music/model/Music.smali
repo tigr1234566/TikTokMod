@@ -748,8 +748,6 @@
 
     iget-boolean v0, p0, Lcom/ss/android/ugc/aweme/music/model/Music;->isCommercialMusic:Z
 
-    const/4 v0, 0x0
-
     invoke-virtual {v2, v0}, Lcom/ss/android/ugc/aweme/shortvideo/model/MusicModel;->setCommerceMusic(Z)V
 
     iget-boolean v0, p0, Lcom/ss/android/ugc/aweme/music/model/Music;->isOriginalSound:Z
@@ -868,8 +866,6 @@
     invoke-virtual {v2, v0}, Lcom/ss/android/ugc/aweme/shortvideo/model/MusicModel;->setLocalMusicId(I)V
 
     iget-boolean v0, p0, Lcom/ss/android/ugc/aweme/music/model/Music;->muteShare:Z
-
-    const/4 v0, 0x0
 
     invoke-virtual {v2, v0}, Lcom/ss/android/ugc/aweme/shortvideo/model/MusicModel;->setMuteShare(Z)V
 
@@ -1303,8 +1299,6 @@
 .method public getMusicStatus()I
     .locals 1
 
-    iget v0, p0, Lcom/ss/android/ugc/aweme/music/model/Music;->musicStatus:I
-
     const/4 v0, 0x1
 
     return v0
@@ -1603,8 +1597,6 @@
 .method public isCommercialMusic()Z
     .locals 1
 
-    iget-boolean v0, p0, Lcom/ss/android/ugc/aweme/music/model/Music;->isCommercialMusic:Z
-
     const/4 v0, 0x0
 
     return v0
@@ -1620,8 +1612,6 @@
 
 .method public isMuteShare()Z
     .locals 1
-
-    iget-boolean v0, p0, Lcom/ss/android/ugc/aweme/music/model/Music;->muteShare:Z
 
     const/4 v0, 0x0
 
@@ -1662,8 +1652,6 @@
 
 .method public isPreventDownload()Z
     .locals 1
-
-    iget-boolean v0, p0, Lcom/ss/android/ugc/aweme/music/model/Music;->preventDownload:Z
 
     const/4 v0, 0x0
 
@@ -1772,8 +1760,6 @@
 
 .method public setCommercialMusic(Z)V
     .locals 0
-
-    const/4 p1, 0x0
 
     iput-boolean p1, p0, Lcom/ss/android/ugc/aweme/music/model/Music;->isCommercialMusic:Z
 
@@ -2013,8 +1999,6 @@
 .method public setMusicStatus(I)V
     .locals 0
 
-    const/4 p1, 0x1
-
     iput p1, p0, Lcom/ss/android/ugc/aweme/music/model/Music;->musicStatus:I
 
     return-void
@@ -2038,8 +2022,6 @@
 
 .method public setMuteShare(Z)V
     .locals 0
-
-    const/4 p1, 0x0
 
     iput-boolean p1, p0, Lcom/ss/android/ugc/aweme/music/model/Music;->muteShare:Z
 

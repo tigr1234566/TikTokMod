@@ -2365,11 +2365,7 @@
     :cond_34
     iget-boolean v1, p0, Lcom/ss/android/ugc/aweme/profile/model/User;->preventDownload:Z
 
-    const/4 v1, 0x0
-
     iget-boolean v0, p1, Lcom/ss/android/ugc/aweme/profile/model/User;->preventDownload:Z
-
-    const/4 v0, 0x0
 
     if-eq v1, v0, :cond_35
 
@@ -2405,11 +2401,7 @@
     :cond_38
     iget v1, p0, Lcom/ss/android/ugc/aweme/profile/model/User;->duetSetting:I
 
-    const/4 v1, 0x0
-
     iget v0, p1, Lcom/ss/android/ugc/aweme/profile/model/User;->duetSetting:I
-
-    const/4 v0, 0x0
 
     if-eq v1, v0, :cond_39
 
@@ -2418,11 +2410,7 @@
     :cond_39
     iget v1, p0, Lcom/ss/android/ugc/aweme/profile/model/User;->stitchSetting:I
 
-    const/4 v1, 0x0
-
     iget v0, p1, Lcom/ss/android/ugc/aweme/profile/model/User;->stitchSetting:I
-
-    const/4 v0, 0x0
 
     if-eq v1, v0, :cond_3a
 
@@ -2440,11 +2428,7 @@
     :cond_3b
     iget v1, p0, Lcom/ss/android/ugc/aweme/profile/model/User;->downloadSetting:I
 
-    const/4 v1, 0x0
-
     iget v0, p1, Lcom/ss/android/ugc/aweme/profile/model/User;->downloadSetting:I
-
-    const/4 v0, 0x0
 
     if-eq v1, v0, :cond_3c
 
@@ -3145,8 +3129,6 @@
 
     iget v0, p0, Lcom/ss/android/ugc/aweme/profile/model/User;->downloadSetting:I
 
-    const/4 v0, 0x0
-
     return v0
 .end method
 
@@ -3162,8 +3144,6 @@
     .locals 1
 
     iget v0, p0, Lcom/ss/android/ugc/aweme/profile/model/User;->duetSetting:I
-
-    const/4 v0, 0x0
 
     return v0
 .end method
@@ -4167,8 +4147,6 @@
 
     iget v0, p0, Lcom/ss/android/ugc/aweme/profile/model/User;->stitchSetting:I
 
-    const/4 v0, 0x0
-
     return v0
 .end method
 
@@ -4868,8 +4846,6 @@
 
     iget-boolean v0, p0, Lcom/ss/android/ugc/aweme/profile/model/User;->preventDownload:Z
 
-    const/4 v0, 0x0
-
     add-int/2addr v1, v0
 
     mul-int/lit8 v1, v1, 0x1f
@@ -4888,15 +4864,11 @@
 
     iget v0, p0, Lcom/ss/android/ugc/aweme/profile/model/User;->duetSetting:I
 
-    const/4 v0, 0x0
-
     add-int/2addr v1, v0
 
     mul-int/lit8 v1, v1, 0x1f
 
     iget v0, p0, Lcom/ss/android/ugc/aweme/profile/model/User;->downloadSetting:I
-
-    const/4 v0, 0x0
 
     add-int/2addr v1, v0
 
@@ -5375,8 +5347,6 @@
     .locals 1
 
     iget-boolean v0, p0, Lcom/ss/android/ugc/aweme/profile/model/User;->preventDownload:Z
-
-    const/4 v0, 0x0
 
     return v0
 .end method
@@ -6143,8 +6113,6 @@
 .method public setDownloadSetting(I)V
     .locals 0
 
-    const/4 p1, 0x0
-
     iput p1, p0, Lcom/ss/android/ugc/aweme/profile/model/User;->downloadSetting:I
 
     return-void
@@ -6160,8 +6128,6 @@
 
 .method public setDuetSetting(I)V
     .locals 0
-
-    const/4 p1, 0x0
 
     iput p1, p0, Lcom/ss/android/ugc/aweme/profile/model/User;->duetSetting:I
 
@@ -6739,8 +6705,6 @@
 .method public setPreventDownload(Z)V
     .locals 0
 
-    const/4 p1, 0x0
-
     iput-boolean p1, p0, Lcom/ss/android/ugc/aweme/profile/model/User;->preventDownload:Z
 
     return-void
@@ -7156,8 +7120,6 @@
 
 .method public setStitchSetting(I)V
     .locals 0
-
-    const/4 p1, 0x0
 
     iput p1, p0, Lcom/ss/android/ugc/aweme/profile/model/User;->stitchSetting:I
 
